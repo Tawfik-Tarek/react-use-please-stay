@@ -2,7 +2,7 @@ import React from 'react';
 import { usePleaseStay } from './hooks/usePleaseStay';
 
 function App() {
-  usePleaseStay();
+  usePleaseStay(["any" , "array" , "of" , "titles"]);
   return (
     <div className="App">
       <p>Everything is ok🤓</p>
