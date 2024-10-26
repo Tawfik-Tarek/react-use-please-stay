@@ -1,8 +1,10 @@
 import React from 'react';
-import { usePleaseStay } from './hooks/usePleaseStay';
+import { usePleaseStay } from 'react-use-please-stay';
 
 function App() {
-  usePleaseStay(["any" , "array" , "of" , "titles"]);
+  usePleaseStay({
+    titles: ['👋🏼', '👋🏼👋🏼', '👋🏼👋🏼👋🏼'],
+  });
   return (
     <div className="App">
       <p>Everything is ok🤓</p>
